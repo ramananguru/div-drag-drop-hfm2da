@@ -1,0 +1,51 @@
+h1, h2 {
+    font-family: Lato;
+  }
+
+  body,html{
+      box-sizing: border-box;
+  }
+  
+  .draggable{
+    background-color: lightgreen;
+    margin: 5px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+  }
+  
+  .droppable{
+      /* display: inline-block; */
+    /* position: absolute; */
+    /* background-color: lightblue; */
+    position: relative;
+    border: 2px dashed black;
+    margin: 5px;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .drop-container{
+      margin-left: 100px;
+  }
+
+  .drag-item-container{
+      border: 3px dashed green;
+  }
+
+  .drag-container{
+    border: 3px dotted red;
+    margin-left: 100px;
+    width: 100px;
+  }
